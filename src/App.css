@@ -1,10 +1,42 @@
-.App {
-  text-align: center;
+:root {
+  --mainBlue: #ebf1f4;
+  --lightBlue: #eb3f3f;
+  --mainDark: #232528;
+  --mainDark: #000;
+  --mainYellow: #ffa400;
 }
 
+
+
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  
+}
+.body{
+  /*background-image: url(./img/tab.jpg);*/
+  background-size: cover;
+  background-position: fixed;
+ 
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+#cart{
+  min-height: 700px;
+  margin-top: 90px;
+
+}
+#products{
+  margin:80px 0px 0px 0px;
+ 
+}
+
+#border{
+  border-right: 1px solid black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
